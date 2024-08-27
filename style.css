@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(206, 198, 198);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 50px 15px   ;
+  
+
+
+}
+
+.section {
+    background-color: #ffff;
+    padding: 50px;
+    border-radius: 7px;
+    margin-bottom: 1px;
+    display: flex;
+}
+
+.subsection {
+    width: 50%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(83, 156, 9);
+    border-radius: 50%;
+
+}
+
+.status {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 6px;
+    margin-right: 50px;
+
+}
+
+.p-status {
+    margin: 0 20px;
+}
+
+.profile {
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+
+
+.p-desc {
+    font-size: 30px;
+    text-align: justify;
+    border-bottom: 1px solid rgb(192, 189, 189);
+    padding-bottom: 30px;
+}
+
+.btn-black {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: #ffff
+}
+
+.btn-black:hover{
+    background-color: #ffff;
+    color:black
+}
+
+.btn-lined {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: underline;
+    border: 2px solid black;
+}
+
+.btn-lined:hover{
+    background-color: black;
+    color:#ffff
+}
+
+.section-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+
+
+}
+
+.sticky-nav{
+    height: 200px;
+    width: 50px;
+    background-color: black;
+    border-radius: 30px;
+    position: sticky;
+    top: 60px;
+    
+}
