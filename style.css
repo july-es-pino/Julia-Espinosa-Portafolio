@@ -13,9 +13,7 @@ body {
 .container {
     max-width: 800px;
     width: 100%;
-    margin: 50px 15px   ;
-  
-
+    margin: 50px 15px;
 
 }
 
@@ -34,7 +32,7 @@ body {
 .dot {
     height: 15px;
     width: 15px;
-    background-color: rgb(83, 156, 9);
+    background-color: rgb(17, 168, 17);
     border-radius: 50%;
 
 }
@@ -74,9 +72,9 @@ body {
     color: #ffff
 }
 
-.btn-black:hover{
+.btn-black:hover {
     background-color: #ffff;
-    color:black
+    color: black
 }
 
 .btn-lined {
@@ -87,25 +85,117 @@ body {
     border: 2px solid black;
 }
 
-.btn-lined:hover{
+.btn-lined:hover {
     background-color: black;
-    color:#ffff
+    color: #ffff
 }
 
-.section-title{
+.section-experience {
+    display: flex;
+    flex-direction: row;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 50px;
-
+    margin-top: auto;
+    margin-bottom: 50px;
 
 }
 
-.sticky-nav{
+.sticky-nav {
     height: 200px;
     width: 50px;
     background-color: black;
     border-radius: 30px;
     position: sticky;
     top: 60px;
+
+}
+
+.subsection-exp {
+    font-size: 10px;
+    background-color: rgb(221, 219, 219);
+    padding: 40px;
+    margin-right: 100px;
+    border-bottom: 1px solid rgb(192, 189, 189);
+}
+
+.subsection-education {
+    font-size: 10px;
+    background-color: rgb(221, 219, 219);
+    padding: 40px;
+    margin-left: 100px;
+    border-bottom: 1px solid rgb(192, 189, 189);
+
+}
+
+.p-desc-p {
+    font-size: 15px;
+    text-align: justify;
+    border-bottom: 1px solid rgb(192, 189, 189);
+    padding-bottom: 30px;
+}
+
+.sticky-nav .icons {
+    color: rgb(196, 195, 195);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 40px;
+    padding-top: 10px;
+
+
+}
+
+.home {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(192, 189, 189);
+
+}
+
+.briefcase {
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(192, 189, 189);
+}
+
+.send {
+    padding-top: 30px;
+    border-bottom: 1px solid rgb(192, 189, 189);
+
+}
+
+.home:hover {
+    color: #ffff;
+}
+
+.briefcase:hover {
+    color: #ffff;
+}
+
+.send:hover {
+    color: #ffff;
+}
+
+.hability-icon {
+    color: rgb(44, 42, 42);
+    width: 80px;
+    margin: 30px;
+
+
+}
+
+.section-work {
     
+    display: flex;
+    flex-direction: column;
+}
+
+.section-work .work-image{
+    padding: 10px;
+
+}
+
+    
+
+img {
+    height: 470px;
+    border-radius: 5px;
 }
