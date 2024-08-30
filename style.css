@@ -3,16 +3,15 @@
 body {
     background-color: rgb(206, 198, 198);
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+    font-weight: 350;
     font-style: normal;
-
     display: flex;
     justify-content: center;
 }
 
 .container {
     max-width: 800px;
-    width: 100%;
+    width: 90%;
     margin: 50px 15px;
 
 }
@@ -56,15 +55,15 @@ body {
 }
 
 .profile {
-    width: 300px;
-    height: 350px;
+    width: 85%;
+    /*height: 350px;*/
     border-radius: 15px;
     margin-top: 16px;
 }
 
 
 .p-desc {
-    font-size: 30px;
+    font-size: 25px;
     text-align: justify;
     border-bottom: 1px solid rgb(192, 189, 189);
     padding-bottom: 30px;
@@ -98,6 +97,7 @@ body {
 .section-experience {
     display: flex;
     flex-direction: row;
+
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: auto;
@@ -117,7 +117,7 @@ body {
 
 .subsection-exp {
     font-size: 10px;
-    background-color: rgb(221, 219, 219);
+    /*background-color: rgb(221, 219, 219);*/
     padding: 40px;
     margin-right: 100px;
     border-bottom: 1px solid rgb(192, 189, 189);
@@ -125,9 +125,9 @@ body {
 
 .subsection-education {
     font-size: 10px;
-    background-color: rgb(221, 219, 219);
+    /*background-color: rgb(221, 219, 219);*/
     padding: 40px;
-    margin-left: 100px;
+    margin-left: 50px;
     border-bottom: 1px solid rgb(192, 189, 189);
 
 }
@@ -188,28 +188,29 @@ body {
 }
 
 .section-work {
-    
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
 }
 
-.section-work .work-image{
+.section-work .work-image {
     padding: 10px;
 
 }
 
-    
+
 
 img {
     height: 470px;
     border-radius: 5px;
 }
-.section-input{
+
+.section-input {
     /*background-color: aqua;*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 
 }
 
@@ -219,16 +220,16 @@ img {
     font-size: 12px;
     color: #777;
     border-radius: 10px;
-  }
-  
-  .field input {
+}
+
+.field input {
     display: block;
     min-width: 250px;
     line-height: 1.5;
     font-size: 14px;
-  }
-  
-  input[type="submit"] {
+}
+
+input[type="submit"] {
     display: flex;
     flex-direction: inherit;
     padding: 6px 30px;
@@ -239,49 +240,51 @@ img {
     border-radius: 50px;
     margin-block-start: -35px;
     margin-left: 320px;
-    
-  }
 
- input[type="text"] {
+}
+
+input[type="text"] {
     /*background-color: aquamarine;*/
     border-radius: 5px;
     width: 450px;
     height: 25px;
     border-color: rgb(241, 234, 234);
-    
 
 
 
- }
- input[type="texto"] {
+
+}
+
+input[type="texto"] {
     height: 150px;
     border-radius: 5px;
     width: 450px;
-    border-color: rgb(241,234,234);
+    border-color: rgb(241, 234, 234);
 
- }
-
- .airplane{
-    
-    padding-top: 28px;
-    
 }
 
-.subtitle-contacto{
+.airplane {
+
+    padding-top: 28px;
+
+}
+
+.subtitle-contacto {
     margin-top: 20px;
     padding: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.subsection-redes{
-    
+.subsection-redes {
+
     display: flex;
     align-items: center;
-    
-  }
-.boton-redes{
-    
+
+}
+
+.boton-redes {
+
     color: #202020;
     text-decoration: none;
     background-color: #fff;
@@ -292,5 +295,6 @@ img {
     padding: 8px;
     margin-left: 102px;
 
-    
+
 }
+
