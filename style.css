@@ -19,10 +19,15 @@ body {
 
 .section {
     background-color: #ffff;
-    padding: 50px;
+    padding: 45px;
     border-radius: 7px;
     margin-bottom: 1px;
+    margin-top: 10;
     display: flex;
+}
+
+.subtitle {
+    padding: 20px;
 }
 
 .subsection {
@@ -198,4 +203,94 @@ body {
 img {
     height: 470px;
     border-radius: 5px;
+}
+.section-input{
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+
+.field label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+    border-radius: 10px;
+  }
+  
+  .field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    display: flex;
+    flex-direction: inherit;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: rgb(217, 212, 212);
+    border-style: none;
+    color: #101010;
+    border-radius: 50px;
+    margin-block-start: -35px;
+    margin-left: 320px;
+    
+  }
+
+ input[type="text"] {
+    /*background-color: aquamarine;*/
+    border-radius: 5px;
+    width: 450px;
+    height: 25px;
+    border-color: rgb(241, 234, 234);
+    
+
+
+
+ }
+ input[type="texto"] {
+    height: 150px;
+    border-radius: 5px;
+    width: 450px;
+    border-color: rgb(241,234,234);
+
+ }
+
+ .airplane{
+    
+    padding-top: 28px;
+    
+}
+
+.subtitle-contacto{
+    margin-top: 20px;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subsection-redes{
+    
+    display: flex;
+    align-items: center;
+    
+  }
+.boton-redes{
+    
+    color: #202020;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(167, 165, 165);
+    height: 30px;
+    width: 100px;
+    padding: 8px;
+    margin-left: 102px;
+
+    
 }
